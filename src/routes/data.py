@@ -16,4 +16,4 @@ async def upload_file(project_id: str, file: UploadFile, app_settings: SettingsD
         return JSONResponse(
             status_code=status.HTTP_400_BAD_REQUEST, content={"signal": response_signal}
         )
-    project_dir = ProjectController().get_project_path(project_id)
+    project_dir_path = ProjectController().get_project_path(project_id)
