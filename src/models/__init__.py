@@ -1,1 +1,1 @@
-from models.enums.ResponseSignal import ResponseSignal
+from models.enums.ResponseEnum import ResponseSignal
